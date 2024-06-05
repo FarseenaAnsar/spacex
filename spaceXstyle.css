@@ -117,13 +117,13 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   animation: fadeInUp 0.5s ease-in-out 0.2s;
-  animation-fill-mode: both; // Stop from showing at start
+  animation-fill-mode: both; /* Stop from showing at start*/
 }
 
 .section-inner a {
     color: #fff;
   animation: fadeInUp 0.5s ease-in-out 0.4s;
-  animation-fill-mode: both; // Stop from showing at start
+  animation-fill-mode: both; /* Stop from showing at start*/
 }
 
 /* Background images */
@@ -305,7 +305,7 @@ footer ul li a:hover {
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-/* Bring menu from right */
+/* Bring menu right */
 .show-menu {
   transform: translateX(0);
 }
